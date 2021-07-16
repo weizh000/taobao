@@ -1,0 +1,229 @@
+/*  
+	样式模块化
+    @规则
+        @chartset  设置样式表的编码
+		@import    导入其它样式文件
+		@media	   媒体查询，查询所使用的设备，在适配过程中非常有用
+		@font-face 自定义字体 还能实现图标字体化，使小图标像文字一样便于设置
+*/
+@import 'reset.css';
+@font-face {
+	font-family: 'iconfont';
+	src: url('../font/iconfont.ttf') format('truetype');
+  }
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased; /*抗锯齿*/
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 头部信息 */
+#head{
+	width: 100%;
+	height: 36px;
+	background-color: #fff;
+}
+#headMessage li{
+	float: left;
+	line-height: 35px;
+	padding: 0 6px;
+	font-size: 0px;
+}
+#headMessage a{
+	font-size: 12px;
+	color: #6c6c6c;
+}
+#headMessage a.login{
+	color: #F22E00;
+}
+#headMessage span{
+	font-size: 12px;
+}
+#headMessage span.arrow{
+	margin-left: 7px;
+	color: #9C9C9C;
+}
+.mr7{
+	margin-right: 7px;
+}
+.mr5{
+	margin-right: 5px;
+}
+#headMessage li strong{
+	font-size: 12px;
+	color: #F22E00;
+}
+#headMessage li span.store{
+	font-size: 12px;
+	color: #9c9c9c;
+}
+#headMessage a:hover{
+	color: #f40;
+}
+#headMessage li.line{
+	font-size: 12px;
+	color: #DDDDDD;
+}
+
+/* 头部搜索 */
+#headSearch{
+	padding: 24px 0 10px;
+}
+#headSearch h1 a{
+	display: block;
+	width: 142px;
+	margin-left: 22px;
+	height: 58px;
+	background: url(../images/logo.png) center no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin-top: 4px;
+}
+#headSearch .code{
+	position: relative;
+	text-align: center;
+	width: 74px;
+	height: 88px;
+	border: 1px solid #eee;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	margin-right: 110px;
+}
+#headSearch .code img{
+	width: 62px;
+}
+
+#headSearch #search{
+	width: 630px;
+	margin: 0 auto;
+
+}
+#headSearch #search .hotKey{
+	padding: 5px 41px 0 0;
+}
+#headSearch .searchContent{
+	height: 40px;
+}
+#headSearch .searchBox{
+	width: 630px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ff5000;
+	border-width: none;
+	border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+	position: relative;
+}
+#headSearch .searchBox .searchTab{
+    /* border: 2px solid #fff; */
+    background-color: #fff;
+    height: 40px;
+	width: 72px;
+	position: relative;
+
+}
+#headSearch .searchBox .searchTab .good{
+	position: absolute;
+	top:8px;
+	right: 32px;
+
+}
+#headSearch .searchBox .searchTab .arrow{
+	position: absolute;
+	top:6px;
+	right: 14px;
+}
+#headSearch .searchBar{
+	position: relative;
+}
+#headSearch .searchBar .placeholder{
+	top: 6px;
+	position: absolute;
+}
+#headSearch .searchBar .camera{
+	position: absolute;
+	font-size: 22px;
+	top: 4px;
+	right: 20px;
+}
+
+#headSearch .searchBox input{
+	border: 0;
+	padding: 0;
+	width: 490px;
+	height: 40px;
+	line-height: 40px;
+	outline: none;
+	border: none;
+}
+#headSearch .searchBox button{
+	border: 0;
+	padding: 0;
+	width: 66px;
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	color: #fff;
+	background-image: linear-gradient(to right,#ff9000,#ff5000);
+}
+#nav{
+	height: 2000px;
+	background-color: #fff;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#nav h2{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #f50;
+	text-align: center;
+}
+#nav ul{
+	width: calc(100%-190px);
+	color: #3c3c3c;
+}
+#nav ul li{
+	float: left;
+	line-height: 30px;
+	margin: 0 7px;
+	font-size: 14px;
+}
+#nav ul li.size{
+	font-size: 16px;
+}
+#nav ul .tianmao a{
+	color: #ff0036;
+	font-weight: bold;
+}
+#nav ul .juhuasuan a{
+	color: #ff0036;
+	font-weight: bold;
+}
+#nav ul .tianmaochaoshi a{
+	color: #33c900;
+	font-weight: bold;
+}
+
+/* 首屏内容-左侧*/
+#firstScreen .firstLeft{
+	width: 890px;
+}
+.fristLeft .sideNav{
+	width: 190px;
+	height: 522px;
+	background-color: #f50;
+} 
+
+
+
+
+/* 首屏内容-右边 */
+#firstScreen .firstRight{
+
+}
