@@ -14,7 +14,7 @@ a{
     text-decoration: none;
     color: #3c3c3c;
 }
-i{
+i,em{
     font-style: normal;
 }
 input{
@@ -30,6 +30,12 @@ body{
     font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
     color: #3C3C3C;
     background-color: #f5f5f5;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 0px;
 }
 
 /* 清除浮动 */
@@ -64,3 +70,4 @@ body{
 .mr10{
     margin-right: 10px;
 }
+
